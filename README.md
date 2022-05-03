@@ -30,7 +30,7 @@ $ npm start
 
 The frontend & backend of the application is hosted online on Heroku. App link - https://foodal-app.herokuapp.com/
 The database used is MongoDB Atlas.
-
+<!-- 
 ## Features
 
 - A common signin & signup page for both vendor & buyer.
@@ -44,7 +44,7 @@ The database used is MongoDB Atlas.
 - Vendor can also view the orders & can manage the 6 stages of the order. 
 - In vendor profile, a Statistics Page is implemented to show the top 5 items sold so far, counts of Orders Placed, Pending Orders, Completed Orders & graphs to visualise batch-wise, age-wise distribution of completed orders.
 - Any vendor can have at-max 10 orders at ACCEPTED and COOKING stage combined.
-- Emails are send to the buyers on acceptance/rejection of their order. The database used is MongoDB Atlas.
+- Emails are send to the buyers on acceptance/rejection of their order. The database used is MongoDB Atlas. -->
 
 
 ## Features
