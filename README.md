@@ -1,5 +1,10 @@
 # Job Application Portal
 
+A MERN stack webApp, built for 2 users.
+
+Vendor : The user who creates the food and can view the orders posted for the food created.
+Buyer : The user who can order any active food item available on the portal.
+
 ## How to run:
 
 
