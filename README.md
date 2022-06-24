@@ -17,7 +17,14 @@ $ npm install
 $ npm start
 ```
 
-## Buyer Details
+## Tech stacks used:
+1. React JS for Frontend
+2. Backend Framework using Express JS implementing REST API.
+3. Node JS for Backend
+4. MongoDB for Database
+5. Heroku for Hosting the application
+
+## Buyer Details:
 Each buyer has the following attributes:
 - Name
 - Email [Unique]
@@ -25,7 +32,7 @@ Each buyer has the following attributes:
 - Age
 - Batch Name: [possible fields UG1, UG2, UG3, UG4, UG5]
 
-## Vendor Details
+## Vendor Details:
 Each vendor has the following attributes:
 - Manager’s Name
 - Shop Name like JC, VC, BBC, etc. [Unique]
@@ -33,7 +40,7 @@ Each vendor has the following attributes:
 - Contact Number
 - Canteen Opening and Closing Time
 
-## Features
+## Features:
 1. Login and Registration 
   - Common registration page with a drop-down to choose user type (Vendor / Buyer) and have fields appear as per their profile. 
   - Common login portal redirecting to respective UI after login. 
@@ -55,7 +62,7 @@ Each Food Item has the following attributes:
 - As soon as the order is placed, the money is deducted from the wallet.
 - If the order gets cancelled, the money is refunded back to the wallet. 
 
-## Use Cases
+## Use Cases:
 1. Buyer
   - Profile page with buyer details and an option to edit them. 
   
@@ -99,11 +106,11 @@ Each Food Item has the following attributes:
   - Graphs to visualise batch-wise, age-wise distribution of completed orders.
   - Any vendor can have at-max 10 orders at ACCEPTED and COOKING stage combined. It can’t move any more orders in the ACCEPTED stage till any of these orders reach READY FOR PICKUP stage. An error popup appears in case the vendor tries to accept more. 
 
-## Extra features
+## Extra features:
 - Deployed the web app (both frontend and backend) on Heroku.
 - Email to the buyers on acceptance/rejection of their order. A common email ID has been created for mailing purposes stating that "<vendor-name>" accepted your order. 
  
-## Dockerization
+## Dockerization:
 - 3 Docker containers are created for hosting Backend, static server hosting Frontend and nginx.
 - A docker-compose file is present to boot up all the three containers.
 - The backend is hosted at /api and frontend at / 
