@@ -64,8 +64,8 @@ Each Food Item has the following attributes:
     - Implemented fuzzy search based upon food item name in the dashboard
     
   - Favorites tab: 
-    - A buyer can mark some food items as favorites and they should appear in a different section on the dashboard. 
-    - In the food item list, for each food item, the buyer should be able to view all its properties such price, name, vendor, etc.
+    - A buyer can mark some food items as favorites and they appear in a different section on the dashboard. 
+    - In the food item list, for each food item, the buyer is able to view all its properties such price, name, vendor, etc.
     - For each food item, the buyer can choose from: its quantity (an integer value), some addons available within a food item and place an order with a buy button. 
     - Wallet amount is visible at the top, and the functionalities present in the Wallet Details section are implemented.
     - A buyer cannot place an order if the canteen is closed. Such items are present at the end of the item list with an indication that identifies them as unavailable. 
