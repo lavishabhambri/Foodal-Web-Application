@@ -80,7 +80,7 @@ Each Food Item has the following attributes:
       - COMPLETED - Every completed order gets an option to rate the food item in the Rating field. Once rated, the food items’ average rating gets updated. 
       - REJECTED
  
-</br>
+
 2. Vendor
 a) Profile page with vendor details and an option to edit them. 
 
