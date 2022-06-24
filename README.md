@@ -57,38 +57,32 @@ Each Food Item has the following attributes:
 
 ## Use Cases
 1. Buyer
-  a) Profile page with buyer details and an option to edit them. 
+  - Profile page with buyer details and an option to edit them. 
   
-  b) The dashboard has the following features
+  - The dashboard has the following features
     - Implemented a Search Bar in dashboard, where one can search for a food item based upon item name.
     - Implemented fuzzy search based upon food item name in the dashboard
     
-  c) Favorites tab: 
+  - Favorites tab: 
     - A buyer can mark some food items as favorites and they should appear in a different section on the dashboard. 
     - In the food item list, for each food item, the buyer should be able to view all its properties such price, name, vendor, etc.
     - For each food item, the buyer can choose from: its quantity (an integer value), some addons available within a food item and place an order with a buy button. 
     - Wallet amount is visible at the top, and the functionalities present in the Wallet Details section are implemented.
     - A buyer cannot place an order if the canteen is closed. Such items are present at the end of the item list with an indication that identifies them as unavailable. 
     
-    d) My Orders page 
+    - My Orders page 
     - This displays all the current orders, in which each order has the following fields: Placed Time, Vendor Name, Food Item, Quantity, Status, Cost and Rating.
-    - The status field tells the current status of the order. It can be of 6 types -
-      - PLACED
-      - ACCEPTED
-      - COOKING
-      - READY FOR PICKUP - When the status is Ready for Pickup, a button name “Picked up” comes up. On clicking Picked up, the order status becomes Completed.
-      - COMPLETED - Every completed order gets an option to rate the food item in the Rating field. Once rated, the food items’ average rating gets updated. 
-      - REJECTED
+    - The status field tells the current status of the order. It can be of 6 types: PLACED, ACCEPTED, COOKING, READY FOR PICKUP: When the status is Ready for Pickup, a button name “Picked up” comes up. On clicking Picked up, the order status becomes Completed., COMPLETED: Every completed order gets an option to rate the food item in the Rating field. Once rated, the food items’ average rating gets updated., REJECTED
  
 
 2. Vendor
-a) Profile page with vendor details and an option to edit them. 
+- Profile page with vendor details and an option to edit them. 
 
-b) A Food Menu dashboard displaying all food items of the vendor. There is a button at the top to add a food item. For each added food item, there are 2 options available - to Edit, and to Delete the food item. 
+- A Food Menu dashboard displaying all food items of the vendor. There is a button at the top to add a food item. For each added food item, there are 2 options available - to Edit, and to Delete the food item. 
 
-c) A dashboard to view orders issued to the vendor, each order have details such as placed time, food item, quantity, along with a button [titled “MOVE TO NEXT STAGE”] to change the status of the order. This button is dynamic in nature, i.e. the functionality of this button depends on the status of the order.
+- A dashboard to view orders issued to the vendor, each order have details such as placed time, food item, quantity, along with a button [titled “MOVE TO NEXT STAGE”] to change the status of the order. This button is dynamic in nature, i.e. the functionality of this button depends on the status of the order.
 
-d)  Each order as discussed earlier, can have 6 stages 
+- Each order as discussed earlier, can have 6 stages 
   - PLACED: Initially, a placed order comes here. An additional REJECT button is present along with the MOVE TO NEXT STAGE button.
   - ACCEPTED: Upon clicking the latter button, the order moves to the Accepted stage.
   - COOKING: The vendor can then change the state of order from the Accepted stage to the Cooking stage using the button.
@@ -96,7 +90,7 @@ d)  Each order as discussed earlier, can have 6 stages
   - COMPLETED: Orders that have been picked up by their respective buyers.
   - REJECTED: Orders rejected by the vendor
 
-e) A Statistics Page 
+- A Statistics Page 
   - Top 5 Items that have been sold
   - Counts for
   - Orders Placed
