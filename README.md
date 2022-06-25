@@ -23,6 +23,7 @@ $ npm start
 3. Node JS for Backend
 4. MongoDB for Database
 5. Heroku for Hosting the application
+6. Docker & nginx
 
 ## Buyer Details:
 Each buyer has the following attributes:
