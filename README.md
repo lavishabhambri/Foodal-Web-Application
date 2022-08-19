@@ -115,3 +115,4 @@ Each Food Item has the following attributes:
 - 3 Docker containers are created for hosting Backend, static server hosting Frontend and nginx.
 - A docker-compose file is present to boot up all the three containers.
 - The backend is hosted at /api and frontend at / 
+
